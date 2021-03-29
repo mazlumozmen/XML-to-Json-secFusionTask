@@ -1,13 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "lYvyk7KOzqIQoXRHUmn54AbP8kFwGdTTyW6h0BDxbrcH9T6S3igV1hfJavl0OgAh3XgZ6r6NVFm6g41mM9jTzw==",
+  "dgSpecHash": "GJg+9wyNKMBy1AQxdsK5pRBPQYTtvz0utD0DJH+OJn+VadiY36rxoC29EUn88fF53GqVrJ9WjjHYJM4UCZIrew==",
   "success": true,
   "projectFilePath": "C:\\Users\\mazlum\\Documents\\secFusionTask\\secFusionTask\\secFusionTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mazlum\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\mazlum\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
+    "C:\\Users\\mazlum\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\mazlum\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-    "C:\\Users\\mazlum\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\mazlum\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\mazlum\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\mazlum\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0\\system.diagnostics.eventlog.5.0.0.nupkg.sha512",
+    "C:\\Users\\mazlum\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\mazlum\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\mazlum\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\system.serviceprocess.servicecontroller.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {

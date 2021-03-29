@@ -48,10 +48,34 @@ namespace secFusion
         public static XmlDocument xmldoc = new XmlDocument();
         static void Main(string[] args)
         {
+            Console.WriteLine("Make sure you are running the application as an administrator.");
             xmldoc.LoadXml(xmlFile);
-            metot();
-            writeFile();
+            /* metot();
+             writeFile();*/
+            checkNessusService();
             Console.WriteLine("Task completed.");
+            Console.ReadKey();
+        }
+        public static void checkNessusService()
+        {
+            ServiceController[] services = ServiceController.GetServices();
+            foreach (ServiceController service in services)
+            {
+                if (service.ServiceName == "Tenable Nessus")
+                {
+                    if (service.Status!=ServiceControllerStatus.Running)
+                    {
+                            service.Start();
+                            Console.WriteLine("The " + service.ServiceName + " service has been started.");
+                            break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Service is working.");
+                    }
+                }
+            }
+
         }
 
 

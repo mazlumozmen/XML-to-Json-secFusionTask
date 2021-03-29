@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "secFusionTask": {
+      "commandName": "Project",
+      "sqlDebugging": false
+    }
+  }
+}
