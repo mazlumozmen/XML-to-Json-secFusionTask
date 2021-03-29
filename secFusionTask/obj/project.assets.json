@@ -138,11 +138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mazlum\\source\\repos\\secFusionTask\\secFusionTask\\secFusionTask.csproj",
+      "projectUniqueName": "C:\\Users\\mazlum\\Documents\\secFusionTask\\secFusionTask\\secFusionTask.csproj",
       "projectName": "secFusionTask",
-      "projectPath": "C:\\Users\\mazlum\\source\\repos\\secFusionTask\\secFusionTask\\secFusionTask.csproj",
+      "projectPath": "C:\\Users\\mazlum\\Documents\\secFusionTask\\secFusionTask\\secFusionTask.csproj",
       "packagesPath": "C:\\Users\\mazlum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mazlum\\source\\repos\\secFusionTask\\secFusionTask\\obj\\",
+      "outputPath": "C:\\Users\\mazlum\\Documents\\secFusionTask\\secFusionTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

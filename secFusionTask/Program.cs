@@ -51,6 +51,7 @@ namespace secFusion
             xmldoc.LoadXml(xmlFile);
             metot();
             writeFile();
+            Console.WriteLine("Task completed.");
         }
 
 

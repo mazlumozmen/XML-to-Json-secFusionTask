@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d7Zp7z9AaBOiBK9ni+kj2cAso0h6iceN8QXRqoJa/qLm8JhC5GN03b/NL1xHGu32+KUUi3yaMHJgQd/wy2NIZg==",
+  "dgSpecHash": "lYvyk7KOzqIQoXRHUmn54AbP8kFwGdTTyW6h0BDxbrcH9T6S3igV1hfJavl0OgAh3XgZ6r6NVFm6g41mM9jTzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mazlum\\source\\repos\\secFusionTask\\secFusionTask\\secFusionTask.csproj",
+  "projectFilePath": "C:\\Users\\mazlum\\Documents\\secFusionTask\\secFusionTask\\secFusionTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mazlum\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\mazlum\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
