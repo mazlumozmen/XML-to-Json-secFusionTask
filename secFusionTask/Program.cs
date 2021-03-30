@@ -56,13 +56,13 @@ namespace secFusion
         {
             Console.WriteLine("Make sure you are running the application as an administrator.");
 
-           /* Inputs inputs = new Inputs();
-            Console.WriteLine("Nessus Server URL: ");
-            inputs.serverURL = Console.ReadLine();
-            Console.WriteLine("Username: ");
-            inputs.username = Console.ReadLine();
-            Console.WriteLine("Password: ");
-            inputs.password = Console.ReadLine();*/
+            /* Inputs inputs = new Inputs();
+             Console.WriteLine("Nessus Server URL: ");
+             inputs.serverURL = Console.ReadLine();
+             Console.WriteLine("Username: ");
+             inputs.username = Console.ReadLine();
+             Console.WriteLine("Password: ");
+             inputs.password = Console.ReadLine();*/
 
 
 
