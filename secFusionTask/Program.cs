@@ -9,7 +9,7 @@ using System.Text.Json;
 using System.Web.Helpers;
 using System.Xml;
 using System.Xml.Linq;
-
+using System.Net.Http;
 
 
 namespace secFusion
@@ -43,19 +43,49 @@ namespace secFusion
             public string output { get; set; }
 
         }
+        public class Inputs
+        {
+            public string serverURL { get; set; }
+            public string username { get; set; }
+            public string password { get; set; }
+        }
 
         public static string xmlFile = File.ReadAllText("secondtry.xml");
         public static XmlDocument xmldoc = new XmlDocument();
         static void Main(string[] args)
         {
             Console.WriteLine("Make sure you are running the application as an administrator.");
+
+           /* Inputs inputs = new Inputs();
+            Console.WriteLine("Nessus Server URL: ");
+            inputs.serverURL = Console.ReadLine();
+            Console.WriteLine("Username: ");
+            inputs.username = Console.ReadLine();
+            Console.WriteLine("Password: ");
+            inputs.password = Console.ReadLine();*/
+
+
+
             xmldoc.LoadXml(xmlFile);
-            /* metot();
-             writeFile();*/
+            getThings();
+            writeFile();
             checkNessusService();
-            Console.WriteLine("Task completed.");
+            Console.WriteLine("Json file has been created.");
             Console.ReadKey();
         }
+
+
+        /// <summary>
+        static HttpClient client = new HttpClient();
+        public static void getScans()
+        {
+            client.BaseAddress = new Uri("https://localhost:8834/");
+
+        }
+        /// </summary>
+
+
+
         public static void checkNessusService()
         {
             ServiceController[] services = ServiceController.GetServices();
@@ -75,14 +105,11 @@ namespace secFusion
                     }
                 }
             }
-
         }
-
-
 
         static Info nesne3 = new Info();
         static Hosts nesne2 = new Hosts();
-        public static void metot()
+        public static void getThings()
         {
 
             XmlNodeList nodeList = xmldoc.GetElementsByTagName("tag");
